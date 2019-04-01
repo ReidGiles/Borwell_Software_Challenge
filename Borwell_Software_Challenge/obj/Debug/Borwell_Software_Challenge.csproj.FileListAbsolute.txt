@@ -1,0 +1,15 @@
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\bin\Debug\Borwell_Software_Challenge.exe.config
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\bin\Debug\Borwell_Software_Challenge.exe
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\bin\Debug\Borwell_Software_Challenge.pdb
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\MainWindow.g.cs
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\App.g.cs
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge_MarkupCompile.cache
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge_MarkupCompile.lref
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\MainWindow.baml
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.g.resources
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.Properties.Resources.resources
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csproj.GenerateResource.Cache
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csproj.CoreCompileInputs.cache
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.exe
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.pdb
+C:\Users\Pandemic\source\repos\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csprojResolveAssemblyReference.cache

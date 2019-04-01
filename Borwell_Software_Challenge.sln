@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borwell_Software_Challenge", "Borwell_Software_Challenge\Borwell_Software_Challenge.csproj", "{E35D266E-00FF-4818-B352-47F2FC475D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borwell_Software_Challenge_Tests", "Borwell_Software_Challenge_Tests\Borwell_Software_Challenge_Tests.csproj", "{9D466E95-C217-4114-9988-FBDE8DF7C3DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35D266E-00FF-4818-B352-47F2FC475D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35D266E-00FF-4818-B352-47F2FC475D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35D266E-00FF-4818-B352-47F2FC475D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35D266E-00FF-4818-B352-47F2FC475D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D466E95-C217-4114-9988-FBDE8DF7C3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D466E95-C217-4114-9988-FBDE8DF7C3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D466E95-C217-4114-9988-FBDE8DF7C3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D466E95-C217-4114-9988-FBDE8DF7C3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24443F49-89BC-4F76-9B8F-92F728FA25E4}
+	EndGlobalSection
+EndGlobal
