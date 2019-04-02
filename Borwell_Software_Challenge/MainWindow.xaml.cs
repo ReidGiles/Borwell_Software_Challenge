@@ -20,9 +20,9 @@ namespace Borwell_Software_Challenge
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int _length;
-        private int _width;
-        private int _height;
+        private double _length;
+        private double _width;
+        private double _height;
 
         public MainWindow()
         {
@@ -31,16 +31,23 @@ namespace Borwell_Software_Challenge
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
+            // Retrieve dimensions from interface
             GetDimensions();
 
+            // Instantiate calculator, pass in the area strategy
             ICalculator calculator = new Calculator(new CalculateArea());
-            lblArea.Content = "Area of floor: " + calculator.Calculate(_length, _width, _height).ToString();
+            // Output area calculation
+            lblArea.Content = "Area of floor: " + calculator.Calculate(_length, _width, _height).ToString() + " ft2";
 
+            // Instantiate calculator, pass in the paint strategy
             calculator = new Calculator(new CalculatePaintRequired());
-            lblPaint.Content = "Paint required: " + calculator.Calculate(_length, _width, _height).ToString();
+            // Output paint calculation
+            lblPaint.Content = "Paint required: " + calculator.Calculate(_length, _width, _height).ToString() + " gallons";
 
+            // Instantiate calculator, pass in the volume strategy
             calculator = new Calculator(new CalculateVolume());
-            lblVolume.Content = "Volume of room: " + calculator.Calculate(_length, _width, _height).ToString();
+            // Output volume calculation
+            lblVolume.Content = "Volume of room: " + calculator.Calculate(_length, _width, _height).ToString() + " ft3";
         }
 
         private void GetDimensions()
@@ -52,6 +59,7 @@ namespace Borwell_Software_Challenge
             else
             {
                 txtLength.Text = "0";
+                _length = 0;
             }
 
             if (txtHeight.Text != "")
@@ -61,6 +69,7 @@ namespace Borwell_Software_Challenge
             else
             {
                 txtHeight.Text = "0";
+                _height = 0;
             }
 
             if (txtWidth.Text != "")
@@ -70,6 +79,7 @@ namespace Borwell_Software_Challenge
             else
             {
                 txtWidth.Text = "0";
+                _width = 0;
             }
         }
     }
