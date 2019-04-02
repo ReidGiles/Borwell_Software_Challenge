@@ -18,7 +18,6 @@ C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_C
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.pdb
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\bin\Debug\Borwell_Software_Challenge.exe
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\bin\Debug\Borwell_Software_Challenge.pdb
-C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csprojResolveAssemblyReference.cache
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\MainWindow.g.cs
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\App.g.cs
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge_MarkupCompile.cache
@@ -27,3 +26,4 @@ C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_C
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.g.resources
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.Properties.Resources.resources
 C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csproj.GenerateResource.Cache
+C:\Users\gilr1_17\Documents\GitHub\Borwell_Software_Challenge\Borwell_Software_Challenge\obj\Debug\Borwell_Software_Challenge.csprojResolveAssemblyReference.cache

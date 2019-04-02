@@ -24,6 +24,10 @@ namespace Borwell_Software_Challenge
         private double _width;
         private double _height;
 
+        private double _area;
+        private double _paint;
+        private double _volume;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -32,24 +36,37 @@ namespace Borwell_Software_Challenge
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
             // Retrieve dimensions from interface
-            GetDimensions();
+            try
+            {
+                GetDimensions();
+            }
+            // Catch input type error, prompt user to try again
+            catch (FormatException)
+            {
+                MessageBoxResult error = MessageBox.Show("Please input numbers only");
+            }
 
             // Instantiate calculator, pass in the area strategy
             ICalculator calculator = new Calculator(new CalculateArea());
-            // Output area calculation
-            lblArea.Content = "Area of floor: " + calculator.Calculate(_length, _width, _height).ToString() + " ft2";
+            _area = calculator.Calculate(_length, _width, _height);
 
             // Instantiate calculator, pass in the paint strategy
             calculator = new Calculator(new CalculatePaintRequired());
-            // Output paint calculation
-            lblPaint.Content = "Paint required: " + calculator.Calculate(_length, _width, _height).ToString() + " gallons";
+            _paint = calculator.Calculate(_length, _width, _height);
 
             // Instantiate calculator, pass in the volume strategy
             calculator = new Calculator(new CalculateVolume());
-            // Output volume calculation
-            lblVolume.Content = "Volume of room: " + calculator.Calculate(_length, _width, _height).ToString() + " ft3";
-        }
+            _volume = calculator.Calculate(_length, _width, _height);
 
+            // Output results
+            lblArea.Content = "Area of floor: " + _area.ToString() + " ft2";
+            lblPaint.Content = "Paint required: " + _paint.ToString() + " gallons";
+            lblVolume.Content = "Volume of room: " + _volume.ToString() + " ft3";
+        }
+        /// <summary>
+        /// Set instance variables '_length', '_width' and '_height' based on user input.
+        /// If user input is blank, default to '0'.
+        /// </summary>
         private void GetDimensions()
         {
             if (txtLength.Text != "")
