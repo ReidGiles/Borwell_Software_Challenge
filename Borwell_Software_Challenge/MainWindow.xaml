@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Borwell_Software_Challenge"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Borwell Software Challenge" Height="350" Width="525">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="43*"/>
@@ -17,7 +17,7 @@
         <Label x:Name="lblWidth" Content="Width" HorizontalAlignment="Left" Margin="77,32,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Height="23" Margin="149,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
         <Label x:Name="lblHeight" Content="Height" HorizontalAlignment="Left" Margin="149,32,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="62,104,0,0" VerticalAlignment="Top" Width="75" Click="btnCalculate_Click"/>
+        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Width="186" Click="btnCalculate_Click"/>
         <Label x:Name="lblArea" Content="Area of floor:  " HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPaint" Content="Paint required: " HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblVolume" Content="Volume of room: " HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>

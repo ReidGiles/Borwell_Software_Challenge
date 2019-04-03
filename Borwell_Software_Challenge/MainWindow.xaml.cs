@@ -35,7 +35,7 @@ namespace Borwell_Software_Challenge
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
-            // Retrieve dimensions from interface
+            // Attempt to retrieve dimensions from user interface
             try
             {
                 GetDimensions();
@@ -71,7 +71,7 @@ namespace Borwell_Software_Challenge
         {
             if (txtLength.Text != "")
             {
-                _length = int.Parse(txtLength.Text);
+                _length = double.Parse(txtLength.Text);
             }
             else
             {
@@ -81,7 +81,7 @@ namespace Borwell_Software_Challenge
 
             if (txtHeight.Text != "")
             {
-                _height = int.Parse(txtHeight.Text);
+                _height = double.Parse(txtHeight.Text);
             }
             else
             {
@@ -91,7 +91,7 @@ namespace Borwell_Software_Challenge
 
             if (txtWidth.Text != "")
             {
-                _width = int.Parse(txtWidth.Text);
+                _width = double.Parse(txtWidth.Text);
             }
             else
             {
