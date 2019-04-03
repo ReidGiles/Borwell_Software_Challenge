@@ -48,14 +48,17 @@ namespace Borwell_Software_Challenge
 
             // Instantiate calculator, pass in the area strategy
             ICalculator calculator = new Calculator(new CalculateArea());
+            // Calculate area using input dimensions, store in '_area'
             _area = calculator.Calculate(_length, _width, _height);
 
             // Instantiate calculator, pass in the paint strategy
             calculator = new Calculator(new CalculatePaintRequired());
+            // Calculate paint required using input dimensions, store in '_paint'
             _paint = calculator.Calculate(_length, _width, _height);
 
             // Instantiate calculator, pass in the volume strategy
             calculator = new Calculator(new CalculateVolume());
+            // Calculate volume using input dimensions, store in '_volume'
             _volume = calculator.Calculate(_length, _width, _height);
 
             // Output results
@@ -69,32 +72,39 @@ namespace Borwell_Software_Challenge
         /// </summary>
         private void GetDimensions()
         {
+            // If txtLength is not blank
             if (txtLength.Text != "")
             {
+                // Convert txtLength.Text to a double and store in '_length'
                 _length = double.Parse(txtLength.Text);
             }
             else
             {
+                // Return to defaults
                 txtLength.Text = "0";
                 _length = 0;
             }
-
+            // If txtHeight is not blank
             if (txtHeight.Text != "")
             {
+                // Convert txtHeight.Text to a double and store in '_height'
                 _height = double.Parse(txtHeight.Text);
             }
             else
             {
+                // Return to defaults
                 txtHeight.Text = "0";
                 _height = 0;
             }
-
+            // If txtWidth is not blank
             if (txtWidth.Text != "")
             {
+                // Convert txtWidth to a double and store in '_width'
                 _width = double.Parse(txtWidth.Text);
             }
             else
             {
+                // Return to defaults
                 txtWidth.Text = "0";
                 _width = 0;
             }
