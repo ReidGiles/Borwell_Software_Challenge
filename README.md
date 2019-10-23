@@ -1,4 +1,4 @@
-# Borwell Software Challenge
+# Company Software Challenge
 
 WPF application for performing calculations on input room dimesnions.
 Calculations include:
